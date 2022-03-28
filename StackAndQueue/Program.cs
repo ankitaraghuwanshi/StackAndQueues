@@ -14,7 +14,8 @@
             stack.Push(node_3);
             stack.DisplayStack();
 
-
+            stack.Pop();
+            stack.DisplayStack();
         }
 
     }

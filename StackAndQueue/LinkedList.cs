@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StackAndQueue
 {
-    internal class LinkedList
+    public class LinkedList
     {
         public Node Head;
         public Node Tail;
@@ -30,6 +30,16 @@ namespace StackAndQueue
                 Head = node;
             }
         }
+
+        public void DeleteNode()
+        {
+            while (Head != null)
+            {
+                Console.WriteLine("pop = {0}", Head.data);
+                Head = Head.next;
+            }
+        }
+
         public void Display()
         {
             Node temp = Head;
@@ -51,7 +61,9 @@ namespace StackAndQueue
                 }
                 temp = temp.next;
             }
+             
+            
         }
-    }
+    }    
 }
 
