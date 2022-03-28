@@ -63,7 +63,7 @@ namespace StackAndQueue
             }
             else
             {
-                //Console.WriteLine("Stack as follows");
+                Console.WriteLine("Stack as follows");
 
             }
             while (temp != null)

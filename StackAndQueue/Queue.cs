@@ -20,6 +20,12 @@ namespace StackAndQueue
             linkedList.AppendNode(node);
 
         }
+
+        public void Dequeue()
+        {
+            Console.WriteLine("");
+            linkedList.DeleteNode();
+        }
         public void DisplayQueue()
         {
             linkedList.Display();
